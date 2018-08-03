@@ -108,4 +108,7 @@ typedef	union
 	
 #define TRUE 	(1)
 #define FALSE 	(0)
+
+#define BYTE_FF	(0xFF)
+
 #endif /*__MYDEF__H__*/
