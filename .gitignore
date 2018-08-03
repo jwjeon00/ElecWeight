@@ -1,3 +1,6 @@
 
 *.icf
 *.o
+*.bak
+*.pbi
+*.xcl
