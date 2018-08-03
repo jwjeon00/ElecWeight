@@ -339,7 +339,7 @@ BOOL fCheck;
 			
 			case 3:
 				PosSensorProc(Spi2_rxBuff);	// Position Sensor Data Read
-				HAL_SPI_TransmitReceive_IT(&hspi2, Spi2_txBuff, Spi2_rxBuff, 10);
+				HAL_SPI_TransmitReceive_IT(&hspi2, Spi2_txBuff, Spi2_rxBuff, 10);	// SPI Pos sensor drive
 				break;
 			case 4:
 				debugOut();
